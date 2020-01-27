@@ -9,8 +9,3 @@ cron { 'run-puppet':
   hour    => '*',
   minute  => '*/2',
 }
-
-file { '/home/osboxes/hello.txt':
-  ensure => file,
-  content => "Hello world\n",
-}
