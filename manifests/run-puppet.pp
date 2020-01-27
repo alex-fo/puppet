@@ -13,6 +13,6 @@ cron { 'run-puppet':
 file { '/home/osboxes/hello.txt':
   ensure => file,
   content => "Hello world\n",
-  owner => 'osboxes'
-  group => 'osboxes'
+  owner => 'osboxes',
+  group => 'osboxes',
 }
